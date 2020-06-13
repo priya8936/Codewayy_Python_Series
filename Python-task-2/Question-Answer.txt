@@ -1,0 +1,17 @@
+Q1 Why is list used?
+A list is a data structure in Python that is a mutable, or changeable, 
+ordered sequence of elements. Each element or value that is inside of a list is called an item. 
+Just as strings are defined as characters between quotes,Commas separate the elements that are contained within a list 
+lists are defined by having values between square brackets [ ].
+
+Q2 How do lists and sets differ ?
+Just like dictionaries, sets have no order in their collection of items. Not like lists.
+Set requires the items contained in it to be hashable, lists store non-hashable items.
+Sets require your items to be unique and immutable. Duplicates are not allowed in sets, 
+while lists allow for duplicates and are mutable.
+
+Q3 Application of dictionaries with real world example.
+-You can use a dictionary as a jump table to emulate a switch type statement.
+-You can use a dictionary to easily count the content of a list.
+-You can use a dictionary to build indexes of content.
+-You can use it in unit tests, sample data for web forms.
